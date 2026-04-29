@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTETICA INTERIANO</title>
+  
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    
+    <link rel="stylesheet"
+          href="https://cdn.datatables.net/2.3.7/css/dataTables.bootstrap5.min.css">
+
+   
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
+    <link rel="stylesheet " href="styles.css">
+ 
+
+</head>
+<body>
+    <header>
+        <nav>  
+    <ul style="float: left; font-size: 20px;">  <li>PRODUCTOS DE BELLEZA GIMI </li></ul>
+
+<ul>  
+        <li><a href="https://ofertas-guatemala.com/productos/belleza/">ofertas 💅</a></li>
+        <li><a href="https://cosmeticlotsgt.com/">productos 🧴</a></li>
+         <li><a href="https://makeupandbeautyblog.com/#google_vignette"> Blog de Maquillaje🧴</a></li>
+    </ul>
+</nav>
+
+ </nav>
+    </header>
+    <br>
+    <main>
+        <section>
+  
+  <div style="display: flex; align-items: flex-start; gap: 20px;">
+    
+    <img src="imagen1.jpg" alt="cargando imagen" style="width: 400px; height: auto;">
+    
+    <div>
+      <h2>PRODUCTOS SEGUN MARCAS</h2>
+      <p >* Descubre la excelencia en productos de belleza en Guatemala con Sally, el distribuidor líder con una sólida trayectoria. Ofrecemos una amplia gama de productos</p>
+      <p>* MARCAS DE LA A A LA Z ; A. Adolfo Domínguez · AESTURA · Amika · Anastasia Beverly Hills · ANUA · Armani · Augustinus Bader · Australian Gold.</p>
+      <p>* Compra maquillaje original en Guatemala en Nina Cosméticos. Productos 100% auténticos de marcas como Maybelline, L'Oréal, e.l.f.</p>
+    </div>
+
+  </div>
+</section>
+<br><br><br>
+    <article> 
+          <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="producto1.png" class="d-block w-100" alt="..">
+    </div>
+    <div class="carousel-item">
+      <img src="producto2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="producto3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+
+
+  
+    </article>
+
+    </main>
+
+<br><br>
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="datatable_users" class="table">
+                    <thead>
+                        <tr>
+                            <th class="centered">#</th>
+                            <th class="centered">Nombre</th>
+                            <th class="centered">Descripcion</th>
+                            <th class="centered">Precio</th>
+                            <th class="centered">Marca</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody_users"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+<br> 
+<button id="agregar">ME GUSTA</button>
+<button id="eliminar">NO ME GUSTA</button>
+<div id="contenedor"></div>
+
+<br>
+
+
+<footer>
+    <h5 >La belleza es la iluminación de tu alma. (John O’Donohue). 💄​</h5> 
+    <p>Helen Interiano 🐨</p>
+</footer>
+    <br> 
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+   
+    <script src="https://cdn.datatables.net/2.3.7/js/dataTables.js"></script>
+
+    
+    <script src="https://cdn.datatables.net/2.3.7/js/dataTables.bootstrap5.min.js"></script>
+
+  
+    <script src="script.js"></script>
+
+</body>
+</html>
