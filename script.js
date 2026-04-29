@@ -86,4 +86,17 @@ document.getElementById("eliminar").addEventListener("click", () => {
 
 
 
+let nombre = "Helen";
+  let apellido = "Interiano";
 
+let edad = 27;
+let nota = 98;
+
+let estaActivo = true;
+let estaEliminado = false;
+
+let direccion = null;
+
+
+console.log("hola soy " + nombre + "   creadora de esta pagina " );
+  alert(" BIENVENIDOS A PRODUCTOS GIMI");
